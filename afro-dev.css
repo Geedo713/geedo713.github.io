@@ -1,0 +1,261 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+/* Font Control Section */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a::before {
+    color: white;
+}
+
+a:hover {
+    color: #077f88;
+}
+
+a::after {
+    color: white;
+}
+
+.special-h5 {
+    color: #089477;
+    text-align: left;
+}
+
+.special-h2 {
+    color: #089477;
+    margin-top: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.special-blog-h2 {
+    color: #089477;
+    text-align: center;
+    margin-top: 20px;
+}
+
+span {
+    font-family: 'Saira Condensed', sans-serif;
+    color: white;
+}
+
+strong {
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Saira Condensed', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+h4 {
+    padding-left: 5px;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    color: white;
+}
+
+h5 {
+    font-family: 'Saira Condensed', sans-serif;
+    color: #077f88;
+    text-align: center;
+}
+
+.main-div {
+    position: relative;
+    height: 80vh;
+    text-align: center;
+    
+}
+
+body {
+    background: #393938;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+section {
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 30%;
+}
+
+/*Button Control*/
+
+.form-buttom-div {
+    width: 100%;
+    margin-top: 30px;
+}
+button {
+    margin-top: 1%;
+    background: linear-gradient(90deg, #161515, 90%, #077f88);
+    border: none;
+    border-radius: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+    width: 100%;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Saira Condensed', sans-serif;
+    color: white;
+    transition: all 600ms ease-in-out;
+}
+
+fieldset {
+    display:grid;
+    border: none;
+    margin-left: 80px;
+    margin-right: 80px;
+    background: linear-gradient(90deg, #16151598, 90%, #077f88a2);
+}
+
+button::before {
+    color: white;
+}
+
+button:hover {
+    color: #077f88;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+button::after {
+    color: white;
+}
+
+/*I-Frame Control*/
+
+iframe {
+    display: none;
+}
+
+/*Form Control*/
+
+.form-container {
+    width: 100%;
+    height: 70vh;
+}
+
+.form-div {
+    height: auto;
+    width: 100%;
+    padding: 40px 40px 40px;
+}
+
+#invite-form {
+    height: 50vh;
+}
+
+form {
+    background: url(jalloh-website-one.png);
+    border-radius: 3px;
+    background-size: cover;
+    height: auto;
+    max-width: 100%;
+    opacity: 0;
+    transition: all 400ms ease-out;
+}
+
+form::before {
+    opacity: 0;
+}
+
+form::after {
+    opacity: 1;
+}
+
+label {
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+input {
+    text-align: center;
+}
+
+.footer-div {
+    max-height: 2vh;
+    margin-bottom: 100%;
+    margin-top: 50%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.blog-section {
+    text-align: center;
+    height: 30vh;
+    margin-bottom: 50%;
+}
+
+/*Social Section Control*/
+
+.social-section-div {
+    border: none;
+    height: 5vh;
+    max-height: 5vh;
+    margin-top: 30%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.social-section {
+    border: none;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    margin-bottom: 20%;
+}
+
+img {
+    height: 45px;
+    width: 80px;
+    margin-top: 6%;
+    border: none;
+    transition: all 300ms ease-in-out;
+}
+
+img::before {
+    height: 45px;
+    width: 80px;
+    margin-top: 6%;
+    border: none;
+}
+
+img:hover {
+    transform: scale(1.6);
+}
+
+img::after {
+    height: 45px;
+    width: 80px;
+    margin-top: 6%;
+    border: none;
+}
+
+ul,
+ li {
+    width: 100%;
+    display: inline;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
