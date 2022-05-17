@@ -1,3 +1,5 @@
+/*Landing Page Example*/
+
 function redirectCall() {
   document.getElementById("submit").addEventListener("submit", function(event) {
     event.preventDefault()
@@ -29,6 +31,8 @@ let opacity = 0;
                 clearInterval(intervalID);
             }
         }
+
+
 
 
 
